@@ -4,10 +4,9 @@ $(function () {
   $("input[type=file]").after('<span id="image"></span>');
 
   $("input[type=file]").change(function () {
-    var subscriptionKey = "サブスクリプションID";
+    var subscriptionKey = "6fdf826c-88e5-4b4c-b433-b43a00810298";
 
-    var uriBase =
-      "https://japaneast.api.cognitive.microsoft.com/face/v1.0/detect";
+    var uriBase = "https://face-api-practice.cognitiveservices.azure.com/";
 
     var params = {
       returnFaceId: "true",
